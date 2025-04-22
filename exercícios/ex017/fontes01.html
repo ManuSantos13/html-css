@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans'Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh %
+            16px geralmente = 1em
+            Recomendação: Usar px ou em
+            */
+            font-size: 1em;
+        }
+
+        h1 {
+            /* shorthand font 
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni commodi ad, in dicta libero, similique fugiat earum doloremque minus hic nesciunt debitis! Deleniti unde quaerat iusto enim quia porro saepe.Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate neque ipsam vero voluptatibus quae! Tenetur neque fugit nihil necessitatibus quia laboriosam odio, aspernatur distinctio, corrupti numquam molestiae culpa itaque quae!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem necessitatibus ipsam neque saepe dolores, minus officia rem perspiciatis deleniti provident officiis accusamus quibusdam, incidunt veritatis sapiente nostrum! Expedita, eos nihil?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam sit beatae ipsum, repudiandae voluptas aliquam delectus nam. Sapiente, eaque. Quidem officia est nam adipisci provident deleniti quia atque iure facilis!</p>
+</body>
+</html>
