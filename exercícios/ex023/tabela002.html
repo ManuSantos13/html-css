@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        th, tfoot {
+            background-color: grey;
+            color: black;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 6px;
+        }
+
+        td.numero {
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
@@ -20,13 +44,54 @@
     -->
     <table>
         <thead>
-            
+            <tr>
+                <th>Estados Nordestinos</th>
+                <th>População</th>
+            </tr>
         </thead>
         <tbody>
-
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.850.513</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="numero">9.539.029</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="numero">9.233.656</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="numero">7.010.960</td>
+            </tr>               
+            <tr>
+                <td>Paraíba</td>
+                <td class="numero">4.145.040</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="numero">3.446.071</td>
+            </tr>      
+            <tr>
+                <td>Piauí</td>
+                <td class="numero">3.375.646</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="numero">3.220.104</td>
+            </tr>            
+            <tr>
+                <td>Sergipe</td>
+                <td class="numero">2.291.077</td>
+            </tr>
         </tbody>
         <tfoot>
-
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="numero"><strong>52.967.056</strong></td>
+            </tr>
         </tfoot>
     </table>
 </body>
