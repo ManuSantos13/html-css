@@ -14,6 +14,13 @@
             border-collapse: collapse;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         th, tfoot {
             background-color: grey;
             color: black;
@@ -34,6 +41,7 @@
     <!-- 
     ANATOMIA PARA TABELAS GRANDES
     TABLE
+        CAPTION
         THEAD
             TR, TD, TH
         TBODY
@@ -43,10 +51,11 @@
      
     -->
     <table>
+        <caption>População das Unidades Nordestinas Brasileira</caption>
         <thead>
             <tr>
-                <th>Estados Nordestinos</th>
-                <th>População</th>
+                <th scope="col">Estados Nordestinos</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -89,7 +98,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero"><strong>52.967.056</strong></td>
             </tr>
         </tfoot>
